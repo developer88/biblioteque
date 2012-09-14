@@ -60,6 +60,4 @@ class Library < Model
 		end
 	end
 
-
-
 end

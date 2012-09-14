@@ -1,5 +1,3 @@
-require 'date'
-require 'time'
 class Model
 
 	attr_accessor :id, :name, :created_at	
