@@ -5,6 +5,11 @@ Biblioteque is a little gem that provides all necessary methods to create a data
 ## Usage example
 
 
+## Dependencies
+
+This project doesn't have any runtime dependencies, only Ruby 1.9.3+.
+During development, the dependencies are: redcarpet, yard, mocha.
+
 ## Installation
 
 Add this line to your application's Gemfile:
