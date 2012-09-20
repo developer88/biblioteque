@@ -19,6 +19,10 @@ Let's add a new library:
 
     db.create_library("<LibraryName>")
 
+and load it:
+
+    library = db.libraries.first
+
 and import files information into it:
 
     library.add("<PathToCrawlForFiles>")
