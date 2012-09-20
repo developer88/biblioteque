@@ -4,6 +4,37 @@ Biblioteque is a little gem that provides all necessary methods to create a data
 
 ## Usage example
 
+    require 'biblioteque'
+    engine = Biblioteque::Engine.new
+
+Now we can create a new database%
+
+    engine.create_db("<DBname>", "<PathToDatabaseFile>")
+
+Then we need to load created db:
+
+    db = engine.load_db("<PathToDatabaseFile>")
+
+Let's add a new library:
+
+    db.create_library("<LibraryName>")
+
+and import files information into it:
+
+    library.add("<PathToCrawlForFiles>")
+
+Now, we can search for added files in a library:
+
+    library.search('<FileNameOrPatternToSearch>')
+
+or in entiry database:
+
+    db.search('<FileNameOrPatternToSearch>')
+
+Oh! and do not forget to save all the changes:
+
+    db.save
+
 
 ## Dependencies
 

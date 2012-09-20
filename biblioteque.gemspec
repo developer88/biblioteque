@@ -9,6 +9,8 @@ Gem::Specification.new do |gem|
   gem.summary       = %q{Local files parser. It parses files stored in a local directories and writes the information into db in JSON format.}
   gem.homepage      = "http://eremin.me"
 
+  gem.rubyforge_project = "biblioteque"
+
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
@@ -18,5 +20,6 @@ Gem::Specification.new do |gem|
 
   gem.add_development_dependency "yard" 
   gem.add_development_dependency "minitest"
-  gem.add_development_dependency "mocha"  
+  gem.add_development_dependency "mocha" 
+  gem.add_development_dependency "redcarpet" 
 end
