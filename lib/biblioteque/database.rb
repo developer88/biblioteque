@@ -90,6 +90,12 @@ module Biblioteque
 			results
 		end
 
+		def delete_library(id)
+			return false unless id.to_i
+			libraries.delete_if{|l| l.id == id }
+			true
+		end
+
 		private 
 
 		def load_libraries(libraries_arr)

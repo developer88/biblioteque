@@ -1,5 +1,6 @@
 # -*- encoding: utf-8 -*-
-require File.expand_path('../lib/biblioteque/version', __FILE__)
+$:.push File.expand_path("../lib", __FILE__)
+require "biblioteque/version"
 
 Gem::Specification.new do |gem|
   gem.authors       = ["Eremin Andrey"]
