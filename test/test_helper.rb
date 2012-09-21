@@ -5,7 +5,7 @@ $:.unshift File.dirname(__FILE__) + '/../lib'
 require 'biblioteque'
 
 module TestFileOperations
-  def setup_test_engine(response_body_stub)
+  def setup_test_engine
     #Stubs IO operations for testing purposes
     File.stubs(:open).returns(true)
     File.stubs(:read).returns({id:"3423dfgs322dd",name:"testname",created_at:Time.now,updated_at:Time.now}.to_json)

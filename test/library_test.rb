@@ -4,7 +4,7 @@ include TestFileOperations
 
 describe 'Engine' do
 	describe 'work with library in a database' do
-		let(:engine){setup_test_engine(true)}
+		let(:engine){setup_test_engine}
     before(:each) do
       @db = engine.load_db("test_path/testdb.ml")
       @db.create_library("TestLibrary")

@@ -1,17 +1,17 @@
 # Biblioteque
 
-Biblioteque is a little gem that provides all necessary methods to create a databases of file stored in local directories.
+Biblioteque is a little gem that provides all necessary methods to create  databases of files stored in local directories.
 
 ## Usage example
 
     require 'biblioteque'
     engine = Biblioteque::Engine.new
 
-Now we can create a new database%
+Now we can create a new database:
 
     engine.create_db("<DBname>", "<PathToDatabaseFile>")
 
-Then we need to load created db:
+then we need to load created db:
 
     db = engine.load_db("<PathToDatabaseFile>")
 

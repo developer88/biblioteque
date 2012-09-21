@@ -4,7 +4,7 @@ include TestFileOperations
 
 describe 'Engine' do
 	describe 'create an empty database' do
-		let(:engine){setup_test_engine(true)}
+		let(:engine){setup_test_engine}
 		it "should create an empty database" do
 			status = engine.create_db("TestDB", "test_path/testdb.ml")
 			status.must_equal true

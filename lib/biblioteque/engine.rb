@@ -34,9 +34,10 @@ module Biblioteque
 			@db = nil
 		end
 
-		def delete_db(path_source)
-			close_db if path_source == current_db_path
-			Database.destroy(path_source)
+		def delete_db
+			dbpath = current_db_path
+			close_db
+			Database.destroy(dbpath)			
 		end	
 
 		def clone_current(path_destination)
