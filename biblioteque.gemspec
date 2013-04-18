@@ -3,11 +3,11 @@ $:.push File.expand_path("../lib", __FILE__)
 require "biblioteque/version"
 
 Gem::Specification.new do |gem|
-  gem.authors       = ["Eremin Andrey"]
+  gem.authors       = ["Andrey Eremin"]
   gem.email         = ["dsoft88@gmail.com"]
   gem.description   = %q{Local files parser. It parses files stored in a local directories and writes the information into db in JSON format.}
   gem.summary       = %q{Local files parser. It parses files stored in a local directories and writes the information into db in JSON format.}
-  gem.homepage      = "http://eremin.me"
+  gem.homepage      = "https://github.com/developer88/biblioteque"
 
   gem.rubyforge_project = "biblioteque"
 
