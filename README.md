@@ -1,5 +1,7 @@
 # Biblioteque
 
+https://travis-ci.org/developer88/biblioteque.png
+
 Biblioteque is a little gem that provides all necessary methods to create  databases of files stored in local directories.
 
 ## Usage example
