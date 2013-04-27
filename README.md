@@ -1,6 +1,6 @@
 # Biblioteque
 
-![Travis-ci](https://travis-ci.org/developer88/biblioteque.png)
+![Travis-ci](https://travis-ci.org/developer88/biblioteque.png) ![Codeclimate](https://codeclimate.com/github/developer88/biblioteque.png)
 
 Biblioteque is a little gem that provides all necessary methods to create  databases of files stored in local directories.
 
